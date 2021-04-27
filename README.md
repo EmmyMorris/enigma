@@ -11,7 +11,7 @@
 
 # Interaction Pattern
 
-##The Enigma class should respond to the following interaction pattern:
+## The Enigma class should respond to the following interaction pattern:
 ``` ruby
 pry(main)> require 'date'
 #=> true
