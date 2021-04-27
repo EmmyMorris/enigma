@@ -1,4 +1,4 @@
-#Self Assessment-
+# Self Assessment-
   1. Functionality-
     * I believe I successfully implemented the two methods and the encrypt/decrypt command line interfaces. I believe I could possibly score between a 2.5 - 3.
   2. OOP-
@@ -9,7 +9,7 @@
     * I believe I tested every method, but I could have not tested for edge cases though. I believe I could possibly score between a 2.5 - 3.
 
 
-#Interaction Pattern
+# Interaction Pattern
 
 ##The Enigma class should respond to the following interaction pattern:
 ``` ruby
