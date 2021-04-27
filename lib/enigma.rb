@@ -39,13 +39,13 @@ class Enigma
   end
 
   def shift_selector(index_of_letter)
-    i = index_of_letter + 1
+    letter_index = index_of_letter + 1
     case
-    when i % 4 == 0
+    when letter_index % 4 == 0
       :dshift
-    when (i - 3) % 4 == 0
+    when (letter_index - 3) % 4 == 0
       :cshift
-    when (i - 2) % 4 == 0
+    when (letter_index - 2) % 4 == 0
       :bshift
     else
       :ashift

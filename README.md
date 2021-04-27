@@ -1,14 +1,18 @@
-Self Assessment-
-Functionality-
-OOP-
-Ruby Conventions and Mechanics-
-TTD-
+#Self Assessment-
+  1. Functionality-
+    * I believe I successfully implemented the two methods and the encrypt/decrypt command line interfaces. I believe I could possibly score between a 2.5 - 3.
+  2. OOP-
+    * I believe my project is broken into logical components that are appropriately encapsulated. I am not sure if it would be better so make two classes or not. I can articulate the single responsibilities of the various components. I believe I could score in between a 2.5 - 3.
+  3. Ruby Conventions and Mechanics-
+    * I believe my code properly demonstrates indenting, spacing, and naming convention. I believe some of my lines could be too long, but I can speak to why I used certain enumerables/data structures. I believe I could score between a 2.5 - 3.
+  4. TTD-
+    * I believe I tested every method, but I could have not tested for edge cases though. I believe I could possibly score between a 2.5 - 3.
 
 
-Interaction Pattern
+#Interaction Pattern
 
-The Enigma class should respond to the following interaction pattern:
-
+##The Enigma class should respond to the following interaction pattern:
+``` ruby
 pry(main)> require 'date'
 #=> true
 
@@ -47,3 +51,4 @@ pry(main) > enigma.decrypt(encrypted[:encryption], "02715")
 # encrypt a message (generates random key and uses today's date)
 pry(main)> enigma.encrypt("hello world")
 #=> # encryption hash here
+```
