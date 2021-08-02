@@ -13,7 +13,7 @@ Enigma is a solo project using Ruby to build a tool for cracking an encryption a
 
     b. Create a file where you'd like to store the encrypted text
 
-    c. Run: $ ruby ./lib/encrypt.rb unencrypted_file_name.txt encrypted.txt
+    c. Run command: `ruby ./lib/encrypt.rb unencrypted_file_name.txt encrypted.txt`
 
     d. This will return a message stating something like: Created 'encrypted.txt' with the key 82648 and date 240818
 
@@ -25,7 +25,7 @@ Enigma is a solo project using Ruby to build a tool for cracking an encryption a
 
     You'll need your encrypted file, a file to store your decrypted message, the 5-digit key, and 6-digit date from your encryption.
 
-    Run: $ ruby ./lib/decrypt.rb encrypted.txt decrypted.txt 82648 240818
+    Run command: `ruby ./lib/decrypt.rb encrypted.txt decrypted.txt 82648 240818`
 
     Check the updated text file to see the decrypted message!
 
@@ -35,7 +35,7 @@ Enigma is a solo project using Ruby to build a tool for cracking an encryption a
 
     You'll also need the 6-digit date on which the message was encrypted.
 
-    Run: $ ruby ./lib/crack.rb encrypted.txt cracked.txt 240818
+    Run command: `ruby ./lib/crack.rb encrypted.txt cracked.txt 240818`
 
 Check the updated text file to see the decrypted message!
 
