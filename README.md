@@ -1,17 +1,47 @@
-# Self Assessment-
-  1. Functionality-
-     I believe I successfully implemented the two methods and the encrypt/decrypt command line interfaces. I believe I could possibly score between a 2.5 - 3.
-  2. OOP-
-     I believe my project is broken into logical components that are appropriately encapsulated. I am not sure if it would be better so make two classes or not. I can articulate the single responsibilities of the various components. I believe I could score in between a 2.5 - 3.
-  3. Ruby Conventions and Mechanics-
-     I believe my code properly demonstrates indenting, spacing, and naming convention. I believe some of my lines could be too long, but I can speak to why I used certain enumerables/data structures. I believe I could score between a 2.5 - 3.
-  4. TTD-
-     I believe I tested every method, but I could have not tested for edge cases though. I believe I could possibly score between a 2.5 - 3.
+# Enigma
 
+## About
+Enigma is a Ruby program that allows a user to encrypt messages using a series of letter shifts using the CLI. Enigma can also decrypt encrypted messages using a key and date. It can also crack the encryption code using just the message and date to decrypt messages for which no key is given.
 
-# Interaction Pattern
+## Local Setup
 
-## The Enigma class should respond to the following interaction pattern:
+1. Fork and clone the repo
+
+2. To encrypt text:
+
+a. Find or create a .txt file (or use the provided decrpyted.txt)
+
+b. Create a file where you'd like to store the encrypted text
+
+c. Run: $ ruby ./lib/encrypt.rb unencrypted_file_name.txt encrypted.txt
+
+d. This will return a message stating something like: Created 'encrypted.txt' with the key 82648 and date 240818
+
+e. Check the encrypted text file to see the encrypted message!
+
+3. To decrypt text:
+
+a. OPTION 1 - decrypt with the key and date:
+
+You'll need your encrypted file, a file to store your decrypted message, the 5-digit key, and 6-digit date from your encryption.
+
+Run: $ ruby ./lib/decrypt.rb encrypted.txt decrypted.txt 82648 240818
+
+Check the updated text file to see the decrypted message!
+
+b. OPTION 2 - crack the code without knowing the key:
+
+You'll still need the two files: the encrypted text file and a file to store the decrypted message.
+
+You'll also need the 6-digit date on which the message was encrypted.
+
+Run: $ ruby ./lib/crack.rb encrypted.txt cracked.txt 240818
+
+Check the updated text file to see the decrypted message!
+
+## Interaction Pattern
+
+### The Enigma class should respond to the following interaction pattern:
 ``` ruby
 pry(main)> require 'date'
 #=> true
