@@ -21,21 +21,21 @@ Enigma is a Ruby program that allows a user to encrypt messages using a series o
 
 3. To decrypt text:
 
-a. OPTION 1 - decrypt with the key and date:
+    a. OPTION 1 - decrypt with the key and date:
 
-You'll need your encrypted file, a file to store your decrypted message, the 5-digit key, and 6-digit date from your encryption.
+    You'll need your encrypted file, a file to store your decrypted message, the 5-digit key, and 6-digit date from your encryption.
 
-Run: $ ruby ./lib/decrypt.rb encrypted.txt decrypted.txt 82648 240818
+    Run: $ ruby ./lib/decrypt.rb encrypted.txt decrypted.txt 82648 240818
 
-Check the updated text file to see the decrypted message!
+    Check the updated text file to see the decrypted message!
 
-b. OPTION 2 - crack the code without knowing the key:
+    b. OPTION 2 - crack the code without knowing the key:
 
-You'll still need the two files: the encrypted text file and a file to store the decrypted message.
+    You'll still need the two files: the encrypted text file and a file to store the decrypted message.
 
-You'll also need the 6-digit date on which the message was encrypted.
+    You'll also need the 6-digit date on which the message was encrypted.
 
-Run: $ ruby ./lib/crack.rb encrypted.txt cracked.txt 240818
+    Run: $ ruby ./lib/crack.rb encrypted.txt cracked.txt 240818
 
 Check the updated text file to see the decrypted message!
 
