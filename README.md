@@ -9,15 +9,15 @@ Enigma is a Ruby program that allows a user to encrypt messages using a series o
 
 2. To encrypt text:
 
-a. Find or create a .txt file (or use the provided decrpyted.txt)
+    a. Find or create a .txt file (or use the provided decrpyted.txt)
 
-b. Create a file where you'd like to store the encrypted text
+    b. Create a file where you'd like to store the encrypted text
 
-c. Run: $ ruby ./lib/encrypt.rb unencrypted_file_name.txt encrypted.txt
+    c. Run: $ ruby ./lib/encrypt.rb unencrypted_file_name.txt encrypted.txt
 
-d. This will return a message stating something like: Created 'encrypted.txt' with the key 82648 and date 240818
+    d. This will return a message stating something like: Created 'encrypted.txt' with the key 82648 and date 240818
 
-e. Check the encrypted text file to see the encrypted message!
+    e. Check the encrypted text file to see the encrypted message!
 
 3. To decrypt text:
 
