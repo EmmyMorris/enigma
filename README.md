@@ -1,7 +1,7 @@
 # Enigma
 
 ## About
-Enigma is a Ruby program that allows a user to encrypt messages using a series of letter shifts using the CLI. Enigma can also decrypt encrypted messages using a key and date. It can also crack the encryption code using just the message and date to decrypt messages for which no key is given.
+Enigma is a solo project using Ruby to build a tool for cracking an encryption algorithm based on Alan Turing's enigma machine. Enigma allows a user to encrypt messages using a series of letter shifts using the command line interface.
 
 ## Local Setup
 
@@ -21,7 +21,7 @@ Enigma is a Ruby program that allows a user to encrypt messages using a series o
 
 3. To decrypt text:
 
-    a. OPTION 1 - decrypt with the key and date:
+    a. Decrypt with the key and date:
 
     You'll need your encrypted file, a file to store your decrypted message, the 5-digit key, and 6-digit date from your encryption.
 
@@ -29,7 +29,7 @@ Enigma is a Ruby program that allows a user to encrypt messages using a series o
 
     Check the updated text file to see the decrypted message!
 
-    b. OPTION 2 - crack the code without knowing the key:
+    b. Crack the code without knowing the key:
 
     You'll still need the two files: the encrypted text file and a file to store the decrypted message.
 
