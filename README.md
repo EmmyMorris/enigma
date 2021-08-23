@@ -82,3 +82,17 @@ pry(main) > enigma.decrypt(encrypted[:encryption], "02715")
 pry(main)> enigma.encrypt("hello world")
 #=> # encryption hash here
 ```
+
+## Testing 
+* RSpec was used for unit and integration testing and project development adhered to TDD principles.
+* Simplecov was used to track total test coverage.
+* To run our test suite, RSpec, enter `$ rspec` in the terminal.
+* To see a coverage report enter `$ open coverage/index.html`
+* SimpleCov test coverage is at 100.00%:
+
+<img width="400" alt="Enigma Coverage Report" src="https://user-images.githubusercontent.com/77904287/130531938-1a618613-e824-4e2c-ba8a-c5eb228fb373.png">
+
+
+## Authors
+
+- Emmy Morris - [emmymorris](https://github.com/EmmyMorris)
